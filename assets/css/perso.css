@@ -1,0 +1,64 @@
+body { 
+	background: url(../img/pattern.png) repeat Ivory ;
+}
+  
+[class*="span"] {
+	background-color: Lavender;
+	margin-bottom: 10px;
+	border-radius: 5px 5px 5px 5px;
+	line-height: 80px;
+}
+
+.page-header {
+	margin:20px;
+	color:black;
+	text-decoration:none;
+}
+
+.page-header  a{
+	color:black;
+	text-decoration:none;
+}
+
+.nav > li > a:hover,
+.nav-list > .active > a,
+.nav-list > .active > a:hover {
+	border-radius: 5px 5px 5px 5px;
+}
+
+.content {
+	padding: 20px 20px 0px 20px;
+}
+
+.content > p {
+	line-height:normal;
+	font-size:110%;
+	text-align:justify;
+}
+
+.content > h2 {
+	margin-bottom:20px;
+}
+
+.mailSpan {
+	background: url(../img/enveloppe.png) Lavender right top no-repeat;
+}
+
+.page-bottom {
+	border-top:1px solid white;
+	type:block;
+	margin-top:20px;
+	padding-top:3px;
+}
+
+#profilePic {
+	float:right;
+	border-radius: 5px 5px 5px 5px;
+	margin-left:20px;
+	margin-bottom:15px;
+}
+
+.borderPic {
+	border:white solid 8px;
+	border-radius: 5px 5px 5px 5px;
+}
