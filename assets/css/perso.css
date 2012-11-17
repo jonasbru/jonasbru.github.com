@@ -6,7 +6,20 @@ body {
 	background-color: Lavender;
 	margin-bottom: 10px;
 	border-radius: 5px 5px 5px 5px;
-	//line-height: 80px;
+	border:1px #99aeb6 solid;
+}
+
+.no-style {
+	background-color: transparent;
+	margin-bottom: initial;
+	border-radius: initial;
+	border:none;
+}
+
+.affix {
+    position: fixed; 
+    top: 20px; 
+    left: 0px;
 }
 
 .page-header {
@@ -67,8 +80,12 @@ body {
 	border-radius: 5px 5px 5px 5px;
 }
 
-.table-cv  td {
+.table-cv td {
 	vertical-align: middle;
+}
+
+.table-cv td:first-child {
+	width:20%;
 }
 
 .entry { 
