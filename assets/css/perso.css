@@ -3,10 +3,18 @@ body {
 }
   
 [class*="span"] {
+	margin-left: 0 !important;
+}
+  
+.backRound {
 	background-color: Lavender;
 	margin-bottom: 10px;
 	border-radius: 5px 5px 5px 5px;
 	border:1px #99aeb6 solid;
+}
+
+.center {
+	text-align: center;
 }
 
 .no-style {
@@ -19,7 +27,6 @@ body {
 .affix {
     position: fixed; 
     top: 20px; 
-    left: 0px;
 }
 
 .page-header {
@@ -39,8 +46,15 @@ body {
 	border-radius: 5px 5px 5px 5px;
 }
 
+.logo {
+	width:40px;
+	height:40px;
+	display: inline-block;
+	padding:3px;
+}
+
 .content {
-	padding: 20px 20px 0px 20px;
+	padding: 0px 20px 0px 20px;
 }
 
 .content > p {
@@ -54,11 +68,11 @@ body {
 }
 
 .mailSpan {
-	background: url(../img/enveloppe.png) Lavender right top no-repeat;
+	background: url(../img/enveloppe.png) right top no-repeat;
 }
 
 .CVSpan {
-	background: url(../img/diploma.png) Lavender right top no-repeat;
+	background: url(../img/diploma.png) right top no-repeat;
 }
 
 .page-bottom {
@@ -116,4 +130,29 @@ h3 {
 }
 .badge5 {
   background-color: #3DE002;
+}
+
+/* Desktop
+------------------------- */
+@media (min-width: 980px) {
+	.leftPanel {
+		width: 158px;		
+	}
+}
+
+/* Tablet
+------------------------- */
+@media (min-width: 768px) and (max-width: 979px) {
+	.leftPanel {
+		width: 120px;
+	}
+}
+
+/* Mobile
+------------------------- */
+@media (max-width: 767px) {
+	.leftPanel {
+		width: auto;
+		position: static;
+	}
 }
