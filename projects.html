@@ -23,6 +23,13 @@
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		
 		<link rel="shortcut icon" href="favicon.ico">
+		
+		<script type="text/javascript" src="highslide/highslide-with-gallery.packed.js"></script>
+		<script type="text/javascript" src="highslide/highslide.config.js" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+		<!--[if lt IE 7]>
+		<link rel="stylesheet" type="text/css" href="highslide/highslide-ie6.css" />
+		<![endif]-->
     </head>
     <body data-spy="scroll" data-target="#navbar" data-offset="80">
         <!--[if lt IE 7]>
@@ -87,18 +94,18 @@
 				  <li class="">
 					<a href="#Kimiya">Kimiya 2D Engine</a>
 				  </li>
-				  <li class="">
+				 <!--  <li class="">
 					<a href="#OrderManagement">Order Management</a>
-				  </li>
+				  </li> -->
 				  <li class="">
 					<a href="#ColonsdeCatane">Colons de Catane</a>
 				  </li>
 				  <li class="">
 					<a href="#Paristaxiflow">Paris taxi flow</a>
 				  </li>
-				  <li class="">
+				  <!--<li class="">
 					<a href="#Gameoflife">Game of life</a>
-				  </li>
+				  </li>-->
 				  <li class="">
 					<a href="#Ascension">Ascension</a>
 				  </li>
@@ -111,9 +118,31 @@
         </div>
         <div class="span10 content">
 			<h2>Projects</h2>
-			<p>Here some interestings projects I've participated those lasts years.</p>
+			<p>Here some interestings projects I've participated those lasts years. I tried, wherever possible, to put a link to the code as well as some screenshots. If you want to know more about a project, please feel free to send me an email !</p>
+			<br/>
 			<div id="ZenInstants" class="span12 backRound">
 				<h2 class="h2Projects">Zen Instants</h2><span class="badge">Android</span><span class="badge">Java</span><span class="badge">PHP</span>
+				<div class="highslide-gallery">
+					<a id="thumb1" href="img/projects/zenInstants0.png" class="highslide" 
+							onclick="return hs.expand(this, config1 )">
+						<img src="img/projects/zenInstants.thumb.png" class="img-polaroid img-project" alt=""/>
+					</a>
+					
+					<div class="hidden-container">
+						<a href="img/projects/zenInstants3.png" class="highslide" 
+								onclick="return hs.expand(this, config1 )">
+							<img src="img/projects/zenInstants3.png"  alt=""/>
+						</a>
+						<a href="img/projects/zenInstants2.png" class="highslide" 
+								onclick="return hs.expand(this, config1 )">
+							<img src="img/projects/zenInstants2.png"  alt=""/>
+						</a>
+						<a href="img/projects/zenInstants1.png" class="highslide" 
+								onclick="return hs.expand(this, config1 )">
+							<img src="img/projects/zenInstants1.png"  alt=""/>
+						</a>
+					</div>
+				</div>
 				<p>Often, people who work in offices are under a lot of pressure. They need to produce fast and well, and this need generates a lots of stress. Being constantly under pressure, their mind and body becomes tired, and at the end, they work less efficiently than being rested.</p>
 				<p>Taking a break of a minute or two periodically throughout the day helps to stand up, stretch, and shake off the accumulated tension. Stepping away from the work to briefly relax and recharge will help people to be more, not less, productive. There is still a problem with that when somebody is deep immersed in his works, he doesn’t think of taking those short breaks by himself, there is the need of an exterior reminder.</p>
 				<p>Zen instants is an Android app that, randomly during the day, displays a message to the user reminding him to take a break, and to breathe a little. The messages contain a phrase or a short text, and can be accompanied with an image, video or audio file. The purpose of those messages is to force the user to take the break, by reading some text, listening to some audio or watching a short video.</p>
@@ -121,6 +150,23 @@
 			</div>
 			<div id="Bubbles" class="span12 backRound">
 				<h2 class="h2Projects">Bubbles</h2><span class="badge">C++</span><span class="badge">Qt</span><span class="badge">Physics engine</span><span class="badge">3D</span><span class="badge">Network</span>
+				<div class="highslide-gallery">
+					<a id="thumb2" href="img/projects/bubbles1.png" class="highslide" 
+							onclick="return hs.expand(this, config2 )">
+						<img src="img/projects/bubbles.thumb.png" class="img-polaroid img-project" alt=""/>
+					</a>
+					
+					<div class="hidden-container">
+						<a href="img/projects/bubbles2.png" class="highslide" 
+								onclick="return hs.expand(this, config2 )">
+							<img src="img/projects/bubbles2.png"  alt=""/>
+						</a>
+						<a href="img/projects/bubbles3.png" class="highslide" 
+								onclick="return hs.expand(this, config2 )">
+							<img src="img/projects/bubbles3.png"  alt=""/>
+						</a>
+					</div>
+				</div>
 				<p>3D multiplayer game developed in a 4th year network project at INSA.</p>
 				<p>The game is a first person shooter, in a world made ​​of cubes and spheres (hence the name: Bubbles). The peculiarity is that players move inside a cube, on which you can walk on all sides. Since it was designed for multiplayer, the game is composed of a client and a server. The client was developed by Michael and Mathieu and I worked on the server side.</p>
 				<p>The client only displays the current positions of all objects, and it's the server that calculates the positions, movements, collisions, etc..and sends the coordinates of the changed objects to the clients. I developed my own physics engine, because the calculations and the objects were fairly simple.</p>
@@ -133,12 +179,29 @@
 				<p>The engine managed graphic objects in a tree structure, and had features as: loading and display of different formats of images, display of simple geometric shapes, programmed object transitions, display text with different effects, display of several cameras pointing at the same scene, the management of animated images, zoom / dezoom of the scene , customizable particle engine, and other features.</p>
 				<p>Developped with <a target="_blank" href="http://arnaudboeglin.com/">Arnaud Boeglin</a>.</p>
 			</div>
-			<div id="OrderManagement" class="span12 backRound">
+		<!-- 	<div id="OrderManagement" class="span12 backRound">
 				<h2 class="h2Projects">Order Management</h2>
 				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis commodo ipsum, nec tempor nibh sagittis vel. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed feugiat, lacus eget suscipit vestibulum, nisi sapien lacinia turpis, id condimentum ipsum massa in nulla. Maecenas ut lorem vel lorem varius semper. Integer est nisi, suscipit et pharetra in, mollis varius tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam eget lorem purus, at vulputate ipsum. Vestibulum quis sollicitudin eros. Nulla vel porttitor erat. Nunc porttitor purus malesuada nunc accumsan vehicula.</p>
-			</div>
+			</div> -->
 			<div id="ColonsdeCatane" class="span12 backRound">
 				<h2 class="h2Projects">Colons de Catane</h2><span class="badge">Java</span>
+				<div class="highslide-gallery">
+					<a id="thumb3" href="img/projects/colons1.png" class="highslide" 
+							onclick="return hs.expand(this, config3 )">
+						<img src="img/projects/colons.thumb.png" class="img-polaroid img-project" alt=""/>
+					</a>
+					
+					<div class="hidden-container">
+						<a href="img/projects/colons2.png" class="highslide" 
+								onclick="return hs.expand(this, config3 )">
+							<img src="img/projects/colons2.png"  alt=""/>
+						</a>
+						<a href="img/projects/colons3.png" class="highslide" 
+								onclick="return hs.expand(this, config3 )">
+							<img src="img/projects/colons3.png"  alt=""/>
+						</a>
+					</div>
+				</div>
 				<p>Project developed in a course at UTBM.</p>
 				<p>A digital version of the game <a target="_blank" href="http://en.wikipedia.org/wiki/The_Settlers_of_Catan">The Settlers of Catan</a> (Colons de Catane in French), a multiplayer board game. Players assume the roles of settlers, each attempting to build and develop holdings while trading and acquiring resources. Players are rewarded points as their settlements grow; the first to reach a set number of points is the winner.</p>
 				<p>All the basic rules of the game were implemented, and represented an interesting project by the magnitude of the project and the short time (and staff) at our disposal.</p>
@@ -146,21 +209,84 @@
 			</div>
 			<div id="Paristaxiflow" class="span12 backRound">
 				<h2 class="h2Projects">Paris taxi flow</h2><span class="badge">Flash</span><span class="badge">ActionScript 3</span>
+				<div class="highslide-gallery">
+					<a id="thumb4" href="img/projects/taxi1.png" class="highslide" 
+							onclick="return hs.expand(this, config4 )">
+						<img src="img/projects/taxi.thumb.png" class="img-polaroid img-project" alt=""/>
+					</a>
+					
+					<div class="hidden-container">
+						<a href="img/projects/taxi2.png" class="highslide" 
+								onclick="return hs.expand(this, config4 )">
+							<img src="img/projects/taxi2.png"  alt=""/>
+						</a>
+						<a href="img/projects/taxi3.png" class="highslide" 
+								onclick="return hs.expand(this, config4 )">
+							<img src="img/projects/taxi3.png"  alt=""/>
+						</a>
+						<a href="img/projects/taxi4.png" class="highslide" 
+								onclick="return hs.expand(this, config4 )">
+							<img src="img/projects/taxi4.png"  alt=""/>
+						</a>
+					</div>
+				</div>
 				<p>A UTBM professor came one day to me with a particular subject which needed the help of a student. The subject being very interesting, I accepted the offer.</p>
 				<p>The city of Paris wanted to conduct a study on the viability of electric taxis in the French capital, including the placement of recharging stations for the taxis. We had at our disposal a file containing the GPS coordinates of all taxis in Paris at any time of the day for a period of one week (needless to say that the file was huge), as well as the information if the taxi was occupied or empty. The goal was to find the points of the city where the greatest number of empty taxis circulated in order to install charging stations at these locations.</p>
 				<p>The program was developed in Flash (requirement of the professor), and shows the movements of the taxis during the day over a map of Paris. Different views modes, filters, as well as the ability to track a taxi in particular have also been implemented. The project was interesting by the type of data handled, as well as its volume, that should be well managed in order to not slow the application.</p>
 			</div>
-			<div id="Gameoflife" class="span12 backRound">
+			<!-- <div id="Gameoflife" class="span12 backRound">
 				<h2 class="h2Projects">Game of life</h2>
 				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis commodo ipsum, nec tempor nibh sagittis vel. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed feugiat, lacus eget suscipit vestibulum, nisi sapien lacinia turpis, id condimentum ipsum massa in nulla. Maecenas ut lorem vel lorem varius semper. Integer est nisi, suscipit et pharetra in, mollis varius tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam eget lorem purus, at vulputate ipsum. Vestibulum quis sollicitudin eros. Nulla vel porttitor erat. Nunc porttitor purus malesuada nunc accumsan vehicula.</p>
-			</div>
+			</div> -->
 			<div id="Ascension" class="span12 backRound">
-				<h2 class="h2Projects">Ascension</h2>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis commodo ipsum, nec tempor nibh sagittis vel. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed feugiat, lacus eget suscipit vestibulum, nisi sapien lacinia turpis, id condimentum ipsum massa in nulla. Maecenas ut lorem vel lorem varius semper. Integer est nisi, suscipit et pharetra in, mollis varius tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam eget lorem purus, at vulputate ipsum. Vestibulum quis sollicitudin eros. Nulla vel porttitor erat. Nunc porttitor purus malesuada nunc accumsan vehicula.</p>
+				<h2 class="h2Projects">Ascension</h2><span class="badge">Java</span><span class="badge">Slick</span>
+				<div class="highslide-gallery">
+					<a id="thumb5" href="img/projects/ascension1.png" class="highslide" 
+							onclick="return hs.expand(this, config5 )">
+						<img src="img/projects/ascension.thumb.png" class="img-polaroid img-project" alt=""/>
+					</a>
+					
+					<div class="hidden-container">
+						<a href="img/projects/ascension2.png" class="highslide" 
+								onclick="return hs.expand(this, config5 )">
+							<img src="img/projects/ascension2.png"  alt=""/>
+						</a>
+						<a href="img/projects/ascension3.png" class="highslide" 
+								onclick="return hs.expand(this, config5 )">
+							<img src="img/projects/ascension3.png"  alt=""/>
+						</a>
+						<a href="img/projects/ascension4.png" class="highslide" 
+								onclick="return hs.expand(this, config5 )">
+							<img src="img/projects/ascension4.png"  alt=""/>
+						</a>
+						<a href="img/projects/ascension5.png" class="highslide" 
+								onclick="return hs.expand(this, config5 )">
+							<img src="img/projects/ascension5.png"  alt=""/>
+						</a>
+						<a href="img/projects/ascension6.png" class="highslide" 
+								onclick="return hs.expand(this, config5 )">
+							<img src="img/projects/ascension6.png"  alt=""/>
+						</a>
+						<a href="img/projects/ascension7.png" class="highslide" 
+								onclick="return hs.expand(this, config5 )">
+							<img src="img/projects/ascension7.png"  alt=""/>
+						</a>
+					</div>
+				</div>
+
+
+
+				<p>Game developed in a Game Rush held at INSA, where we had 24 hours to create a game on a specific topic (here gravity), in teams of 4 developers + 1/2 designers. Not a lot of sleep, but a lot of fun.</p>
+				<p>Ascension is a vertical scrolling game that takes place in a cartoon world ranging from depths of hell to the cloudy heaven, where characters from all backgrounds fight for a place in a better life. They have, in order to be admitted into the paradise, a power that allows them to repel their closer enemies in an attempt to make them fall into the flames of hell. It is skillfully jumping from platform to platform while pushing its competitors that players come to be accepted in heaven.</p>
+				<p>The game can be played up to 4 players; however, everything happens on the same keyboard. You can find a video of the gameplay <a target="_blank" href="http://www.youtube.com/watch?v=HVweItpfMuY">here</a> (the four players are played by the same person), or <a target="_blank" href="http://www.youtube.com/watch?v=f8WVxSoRD2Q">here</a> a video with four real players ('bit messy..).</p>
+				<p>Developped with Michael Fagno, Anis Benyoub & Florent Weillaert. Desing by <a target="_blank" href="http://lamachinefactory.com/">Damien Reynaud</a> & Delphine Rousseau. Code <a target="_blank" href="https://github.com/jonasbru/ProjetX">here</a>.</p>
 			</div>
 			<div id="CofityHome" class="span12 backRound">
-				<h2 class="h2Projects">Cofity Home</h2>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis commodo ipsum, nec tempor nibh sagittis vel. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed feugiat, lacus eget suscipit vestibulum, nisi sapien lacinia turpis, id condimentum ipsum massa in nulla. Maecenas ut lorem vel lorem varius semper. Integer est nisi, suscipit et pharetra in, mollis varius tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam eget lorem purus, at vulputate ipsum. Vestibulum quis sollicitudin eros. Nulla vel porttitor erat. Nunc porttitor purus malesuada nunc accumsan vehicula.</p>
+				<h2 class="h2Projects">Cofity Home</h2><span class="badge">Domotic</span><span class="badge">C</span><span class="badge">Flex</span><span class="badge">Bison</span><span class="badge">JSON</span>
+				<p>Domotic server highly configurable, collects information from various sensors and triggers actuators automatically according to rules written by the user. Incorporates a web server that allows the user to monitor the sensors, trigger the actuators, and change the rules of the server. Adding additional sensors and actuators is simplified to the maximum, and it is only a matter of minutes to add a new one. We used EnOcean sensors, but any bran can be used.</p>
+				<p>The user can, for example, add a rule that would, if it is past 8 am, and the ambient light exceeds a certain threshold, and all bedroom windows are closed, then turn the heat on and start the cofee machine. He can also trigger these actions from the web interface, and if the user is not at home, the web interface is adapted to the mobile phones screen too.</p>
+				<p>The project was done in a group of six at INSA, and I was the project manager. It was very interesting to manage such a project for a period of two months in a group of six, and make sure you that we had something finished and stable at the end.</p>
+				<p>Developped with Benjamin Augustin, Vincent Bailly, Yann Chevalier, Crina Costea & Mathieu Sabourin. Code <a target="_blank" href="https://github.com/jonasbru/cofiTyHome">here</a>.</p>
 			</div>
 			
 			<div class="span12 ">
