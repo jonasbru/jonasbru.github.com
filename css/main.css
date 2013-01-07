@@ -133,6 +133,16 @@ h3 {
 	margin-bottom:5px;
 }
 
+h4 {
+	border-bottom: 1px solid #3399CC;
+	padding-bottom: 5px;	
+	margin-bottom: 15px;
+}
+
+.a_no_style:hover {
+	text-decoration: none
+}
+
 .h2Projects {
 	display:inline;
 	margin-right:10px;

@@ -29,7 +29,7 @@ hs.addSlideshow({
 		position: 'bottom center',
 		offsetX: 0,
 		offsetY: -15,
-		hideOnMouseOut: false
+		hideOnMouseOut: true
 	}
 });
 
