@@ -80,3 +80,11 @@ var config6 = {
 	numberPosition: 'caption',
 	transitions: ['expand', 'crossfade']
 };
+
+// gallery config object
+var config7 = {
+	slideshowGroup: 'group7',
+	thumbnailId: 'thumb7',
+	numberPosition: 'caption',
+	transitions: ['expand', 'crossfade']
+};
