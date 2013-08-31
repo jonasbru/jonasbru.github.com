@@ -1,423 +1,273 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Projects - Jo's Page</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 30px;
-                padding-bottom: 40px;
-            }
-        </style>
-        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
-        <link rel="stylesheet" href="css/main.css">
-
-        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-		
-		<link rel="shortcut icon" href="favicon.ico">
-		
-		<script type="text/javascript" src="highslide/highslide-with-gallery.packed.js"></script>
-		<script type="text/javascript" src="highslide/highslide.config.js" charset="utf-8"></script>
-		<link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
-		<!--[if lt IE 7]>
-		<link rel="stylesheet" type="text/css" href="highslide/highslide-ie6.css" />
-		<![endif]-->
-    </head>
-    <body data-spy="scroll" data-target="#navbar" data-offset="80">
-    	<div class="whole_page">
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-		
-	<div class="page-header">
-		<h1><a href="index.html">Jo's page<div style="color:#3399CC;display:inline;">.</div></a></h1>
+---
+layout: default
+title: Projects - Jo's Page
+nav: projects
+projectsMenu: true
+---
+<div class="span10 content">
+	<h2>Projects</h2>
+	<p>Here are some interesting projects I've participated in these last few years. I tried, wherever possible, to put a link to the code as well as some screenshots (you can clic on the images). If you want to know more about a project, please feel free to send me an email !</p>
+	<br/>
+	<div id="ZenInstants" class="span12 backRound">
+		<h2 class="h2Projects">Zen Instants</h2><span class="badge">Android</span><span class="badge">Java</span><span class="badge">PHP</span>
+		<div class="highslide-gallery">
+			<a id="thumb1" href="img/projects/zenInstants0.jpg" class="highslide" 
+					onclick="return hs.expand(this, config1 )">
+				<img src="img/projects/zenInstants.thumb.jpg" class="img-polaroid img-project" alt=""/>
+			</a>
+			
+			<div class="hidden-container">
+				<a href="img/projects/zenInstants3.jpg" class="highslide" 
+						onclick="return hs.expand(this, config1 )">
+					<img src="img/projects/zenInstants3.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/zenInstants2.jpg" class="highslide" 
+						onclick="return hs.expand(this, config1 )">
+					<img src="img/projects/zenInstants2.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/zenInstants1.jpg" class="highslide" 
+						onclick="return hs.expand(this, config1 )">
+					<img src="img/projects/zenInstants1.jpg"  alt=""/>
+				</a>
+			</div>
+		</div>
+		<p>Often, people who work in offices are under a lot of pressure. They need to produce fast and well, and this need generates a lots of stress. Being constantly under pressure, their mind and body becomes tired, and at the end, they work less efficiently than being rested.</p>
+		<p>Taking a break of a minute or two periodically throughout the day helps to stand up, stretch, and shake off the accumulated tension. Stepping away from the work to briefly relax and recharge will help people to be more, not less, productive. There is still a problem with that when somebody is deep immersed in his works, he doesn’t think of taking those short breaks by himself, there is the need of an exterior reminder.</p>
+		<p>Zen instants is an Android app that, randomly during the day, displays a message to the user reminding him to take a break, and to breathe a little. The messages contain a phrase or a short text, and can be accompanied with an image, video or audio file. The purpose of those messages is to force the user to take the break, by reading some text, listening to some audio or watching a short video.</p>
+		<p>Developped with Michael Fagno &amp; Manel Brull. Soon available in Google Play !</p>
 	</div>
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span2">
-			<div class="leftPanel" data-spy="affix" data-offset-top="100">
-			  <div class="backRound colored">
-				<ul class="nav nav-list">
-				  <li class="">
-					<a href="index.html">
-					<i class="icon-home"></i>
-					  Home
-					</a>
-				  </li>
-				  <li class="active">
-					<a href="#">
-					<i class="icon-folder-open icon-white"></i>
-					  Projects
-					</a>
-				  </li>
-				  <li class="">
-					<a href="cv.html">
-					<i class="icon-briefcase"></i>
-					  CV
-					</a>
-				  </li>
-				  <li class="">
-					<a href="contact.html">
-					<i class="icon-pencil"></i>
-					  Contact
-					</a>
-				  </li>
-				</ul>
-			  </div>
-			  <div class="center">
-                  <div style="display: inline-block;" class="logo backRound colored">
-                   <a title="GitHub" target="_blank" href="https://github.com/jonasbru">
-                    <img alt="Linkedin" src="img/github-logo-s.png">
-                  </a>
-                </div>
-                <div style="display: inline-block;" class="logo backRound colored">
-                  <a title="Linkedin" target="_blank" href="http://www.linkedin.com/in/jonasbru/en">
-                    <img alt="Linkedin" src="img/linkedin-logo-s.png">
-                  </a>
-                </div>
-                <div style="display: inline-block;" class="logo backRound colored">
-                  <a title="Bitbucket" target="_blank" href="https://bitbucket.org/lenwe">
-                    <img alt="Bitbucket" src="img/bitbucket-logo-s.png">
-                  </a>
-                </div>
-              </div>
-			  <div id="navbar" class="backRound colored">
-				<ul class="nav nav-list sidebar-nav">
-				  <li class="active">
-					<a href="#ZenInstants">Zen Instants</a>
-				  </li>
-				  <li class="">
-					<a href="#Bubbles">Bubbles</a>
-				  </li>
-				  <li class="">
-					<a href="#Kimiya">Kimiya 2D Engine</a>
-				  </li>
-				 <!--  <li class="">
-					<a href="#OrderManagement">Order Management</a>
-				  </li> -->
-				  <li class="">
-					<a href="#ColonsdeCatane">Colons de Catane</a>
-				  </li>
-				  <li class="">
-					<a href="#Paristaxiflow">Paris taxi flow</a>
-				  </li>
-				  <li class="">
-					<a href="#Gameoflife">Game of life</a>
-				  </li>
-				  <li class="">
-					<a href="#Ascension">Ascension</a>
-				  </li>
-				  <li class="">
-					<a href="#NanoBlood">NanoBlood</a>
-				  </li>
-				  <li class="">
-					<a href="#DeepInTheLight">DeepInTheLight</a>
-				  </li>
-				  <li class="">
-					<a href="#CofityHome">Cofity Home</a>
-				  </li>
-				</ul>
-			  </div>
-			</div>
-        </div>
-        <div class="span10 content">
-			<h2>Projects</h2>
-			<p>Here are some interesting projects I've participated in these last few years. I tried, wherever possible, to put a link to the code as well as some screenshots (you can clic on the images). If you want to know more about a project, please feel free to send me an email !</p>
-			<br/>
-			<div id="ZenInstants" class="span12 backRound">
-				<h2 class="h2Projects">Zen Instants</h2><span class="badge">Android</span><span class="badge">Java</span><span class="badge">PHP</span>
-				<div class="highslide-gallery">
-					<a id="thumb1" href="img/projects/zenInstants0.jpg" class="highslide" 
-							onclick="return hs.expand(this, config1 )">
-						<img src="img/projects/zenInstants.thumb.jpg" class="img-polaroid img-project" alt=""/>
-					</a>
-					
-					<div class="hidden-container">
-						<a href="img/projects/zenInstants3.jpg" class="highslide" 
-								onclick="return hs.expand(this, config1 )">
-							<img src="img/projects/zenInstants3.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/zenInstants2.jpg" class="highslide" 
-								onclick="return hs.expand(this, config1 )">
-							<img src="img/projects/zenInstants2.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/zenInstants1.jpg" class="highslide" 
-								onclick="return hs.expand(this, config1 )">
-							<img src="img/projects/zenInstants1.jpg"  alt=""/>
-						</a>
-					</div>
-				</div>
-				<p>Often, people who work in offices are under a lot of pressure. They need to produce fast and well, and this need generates a lots of stress. Being constantly under pressure, their mind and body becomes tired, and at the end, they work less efficiently than being rested.</p>
-				<p>Taking a break of a minute or two periodically throughout the day helps to stand up, stretch, and shake off the accumulated tension. Stepping away from the work to briefly relax and recharge will help people to be more, not less, productive. There is still a problem with that when somebody is deep immersed in his works, he doesn’t think of taking those short breaks by himself, there is the need of an exterior reminder.</p>
-				<p>Zen instants is an Android app that, randomly during the day, displays a message to the user reminding him to take a break, and to breathe a little. The messages contain a phrase or a short text, and can be accompanied with an image, video or audio file. The purpose of those messages is to force the user to take the break, by reading some text, listening to some audio or watching a short video.</p>
-				<p>Developped with Michael Fagno &amp; Manel Brull. Soon available in Google Play !</p>
-			</div>
-			<div id="Bubbles" class="span12 backRound">
-				<h2 class="h2Projects">Bubbles</h2><span class="badge">C++</span><span class="badge">Qt</span><span class="badge">Physics engine</span><span class="badge">3D</span><span class="badge">Network</span>
-				<div class="highslide-gallery">
-					<a id="thumb2" href="img/projects/bubbles1.jpg" class="highslide" 
-							onclick="return hs.expand(this, config2 )">
-						<img src="img/projects/bubbles.thumb.jpg" class="img-polaroid img-project" alt=""/>
-					</a>
-					
-					<div class="hidden-container">
-						<a href="img/projects/bubbles2.jpg" class="highslide" 
-								onclick="return hs.expand(this, config2 )">
-							<img src="img/projects/bubbles2.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/bubbles3.jpg" class="highslide" 
-								onclick="return hs.expand(this, config2 )">
-							<img src="img/projects/bubbles3.jpg"  alt=""/>
-						</a>
-					</div>
-				</div>
-				<p>3D multiplayer game developed in a 4th year network project at INSA.</p>
-				<p>The game is a first person shooter, in a world made ​​of cubes and spheres (hence the name: Bubbles). The peculiarity is that players move inside a cube, on which you can walk on all sides. Since it was designed for multiplayer, the game is composed of a client and a server. The client was developed by Michael and Mathieu and I worked on the server side.</p>
-				<p>The client only displays the current positions of all objects, and it's the server that calculates the positions, movements, collisions, etc..and sends the coordinates of the changed objects to the clients. I developed my own physics engine, because the calculations and the objects were fairly simple.</p>
-				<p>Developped with Mathieu Sabourin &amp; Michael Fagno. Code of the server <a target="_blank" href="https://github.com/bubbles3D/Bubbles-Server">here</a>, and <a target="_blank" href="https://github.com/bubbles3D/Bubble-Client">here</a> for the client.</p>
-			</div>
-			<div id="Kimiya" class="span12 backRound">
-				<h2 class="h2Projects">Kimiya 2D Engine</h2><span class="badge">C++</span><span class="badge">OpenGL</span><span class="badge">Qt</span>
-				<p>2D graphic engine in C + +, oriented for games with a 3D isometric view. First phase of a larger game, which for the moment is on stand-by.</p>
-				<p>The creation of this graphics engine is a response to the lack of 2D graphics engines in C++ that was adapted to our needs (we're talking about 2009, I suppose that now there is some good stuff..).</p>
-				<p>The engine managed graphic objects in a tree structure, and had features as: loading and display of different formats of images, display of simple geometric shapes, programmed object transitions, display text with different effects, display of several cameras pointing at the same scene, the management of animated images, zoom / dezoom of the scene , customizable particle engine, and other features.</p>
-				<p>Developped with <a target="_blank" href="http://arnaudboeglin.com/">Arnaud Boeglin</a>.</p>
-			</div>
-		<!-- 	<div id="OrderManagement" class="span12 backRound">
-				<h2 class="h2Projects">Order Management</h2>
-				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis commodo ipsum, nec tempor nibh sagittis vel. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed feugiat, lacus eget suscipit vestibulum, nisi sapien lacinia turpis, id condimentum ipsum massa in nulla. Maecenas ut lorem vel lorem varius semper. Integer est nisi, suscipit et pharetra in, mollis varius tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam eget lorem purus, at vulputate ipsum. Vestibulum quis sollicitudin eros. Nulla vel porttitor erat. Nunc porttitor purus malesuada nunc accumsan vehicula.</p>
-			</div> -->
-			<div id="ColonsdeCatane" class="span12 backRound">
-				<h2 class="h2Projects">Colons de Catane</h2><span class="badge">Java</span>
-				<div class="highslide-gallery">
-					<a id="thumb3" href="img/projects/colons1.jpg" class="highslide" 
-							onclick="return hs.expand(this, config3 )">
-						<img src="img/projects/colons.thumb.jpg" class="img-polaroid img-project" alt=""/>
-					</a>
-					
-					<div class="hidden-container">
-						<a href="img/projects/colons2.jpg" class="highslide" 
-								onclick="return hs.expand(this, config3 )">
-							<img src="img/projects/colons2.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/colons3.jpg" class="highslide" 
-								onclick="return hs.expand(this, config3 )">
-							<img src="img/projects/colons3.jpg"  alt=""/>
-						</a>
-					</div>
-				</div>
-				<p>Project developed in a course at UTBM.</p>
-				<p>A digital version of the game <a target="_blank" href="http://en.wikipedia.org/wiki/The_Settlers_of_Catan">The Settlers of Catan</a> (Colons de Catane in French), a multiplayer board game. Players assume the roles of settlers, each attempting to build and develop holdings while trading and acquiring resources. Players are rewarded points as their settlements grow; the first to reach a set number of points is the winner.</p>
-				<p>All the basic rules of the game were implemented, and represented an interesting project by the magnitude of the project and the short time (and staff) at our disposal.</p>
-				<p>Developped with Lionel Cabasson</p>
-			</div>
-			<div id="Paristaxiflow" class="span12 backRound">
-				<h2 class="h2Projects">Paris taxi flow</h2><span class="badge">Flash</span><span class="badge">ActionScript 3</span>
-				<div class="highslide-gallery">
-					<a id="thumb4" href="img/projects/taxi1.jpg" class="highslide" 
-							onclick="return hs.expand(this, config4 )">
-						<img src="img/projects/taxi.thumb.jpg" class="img-polaroid img-project" alt=""/>
-					</a>
-					
-					<div class="hidden-container">
-						<a href="img/projects/taxi2.jpg" class="highslide" 
-								onclick="return hs.expand(this, config4 )">
-							<img src="img/projects/taxi2.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/taxi3.jpg" class="highslide" 
-								onclick="return hs.expand(this, config4 )">
-							<img src="img/projects/taxi3.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/taxi4.jpg" class="highslide" 
-								onclick="return hs.expand(this, config4 )">
-							<img src="img/projects/taxi4.jpg"  alt=""/>
-						</a>
-					</div>
-				</div>
-				<p>A UTBM professor came one day to me with a particular subject which needed the help of a student. The subject being very interesting, I accepted the offer.</p>
-				<p>The city of Paris wanted to conduct a study on the viability of electric taxis in the French capital, including the placement of recharging stations for the taxis. We had at our disposal a file containing the GPS coordinates of all taxis in Paris at any time of the day for a period of one week (needless to say that the file was huge), as well as the information if the taxi was occupied or empty. The goal was to find the points of the city where the greatest number of empty taxis circulated in order to install charging stations at these locations.</p>
-				<p>The program was developed in Flash (requirement of the professor), and shows the movements of the taxis during the day over a map of Paris. Different views modes, filters, as well as the ability to track a taxi in particular have also been implemented. The project was interesting by the type of data handled, as well as its volume, that should be well managed in order to not slow the application.</p>
-				<p>Code <a target="_blank" href="https://github.com/jonasbru/TaxiManager">here</a>, try it <a target="_blank" href="http://jonasbru.github.com/TaxiManager/">here</a>!</p>
-			</div>
-			<div id="Gameoflife" class="span12 backRound">
-				<h2 class="h2Projects">Game of life</h2><span class="badge">Haskell</span>
-				<div class="highslide-gallery">
-					<a id="thumb6" href="img/projects/GOL1.gif" class="highslide" 
-							onclick="return hs.expand(this, config6 )">
-						<img src="img/projects/GOL.thumb.jpg" class="img-polaroid img-project" alt=""/>
-					</a>
-					
-					<div class="hidden-container">
-						<a href="img/projects/GOL2.jpg" class="highslide" 
-								onclick="return hs.expand(this, config6 )">
-							<img src="img/projects/GOL2.jpg"  alt=""/>
-						</a>
-					</div>
-				</div>
-				<p>Haskell implementation of the <a target="_blank" href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a>. Final project from a Chalmers functionnal programming course.</p>
-				<p>The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.</p>
-				<p>The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead. Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
-				</p>
-				<ol>
-				    <li>Any live cell with fewer than two live neighbours dies, as if caused by under-population.</li>
-				    <li>Any live cell with two or three live neighbours lives on to the next generation.</li>
-				    <li>Any live cell with more than three live neighbours dies, as if by overcrowding.</li>
-				    <li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</li>
-				</ol>
-				<p>An user interface permits to see the evolution of the pattern (zoom/dezoom, change the simulation speed, etc). The script can read and load RLE files, RLE being the most common game of life patterns files. You can fin a lot of interesting patterns (and spend a lot of time playing with them) on the <a target="_blank" href="http://www.conwaylife.com/wiki/Main_Page">LifeWiki</a>.</p>
-				<p>Developped with Michael Fagno. Code <a target="_blank" href="https://github.com/jonasbru/FunctionalProg">here</a>.</p>
-			</div>
-			<div id="Ascension" class="span12 backRound">
-				<h2 class="h2Projects">Ascension</h2><span class="badge">Java</span><span class="badge">Slick</span>
-				<div class="highslide-gallery">
-					<a id="thumb5" href="img/projects/ascension1.jpg" class="highslide" 
-							onclick="return hs.expand(this, config5 )">
-						<img src="img/projects/ascension.thumb.jpg" class="img-polaroid img-project" alt=""/>
-					</a>
-					
-					<div class="hidden-container">
-						<a href="img/projects/ascension2.jpg" class="highslide" 
-								onclick="return hs.expand(this, config5 )">
-							<img src="img/projects/ascension2.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/ascension3.jpg" class="highslide" 
-								onclick="return hs.expand(this, config5 )">
-							<img src="img/projects/ascension3.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/ascension4.jpg" class="highslide" 
-								onclick="return hs.expand(this, config5 )">
-							<img src="img/projects/ascension4.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/ascension5.jpg" class="highslide" 
-								onclick="return hs.expand(this, config5 )">
-							<img src="img/projects/ascension5.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/ascension6.jpg" class="highslide" 
-								onclick="return hs.expand(this, config5 )">
-							<img src="img/projects/ascension6.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/ascension7.jpg" class="highslide" 
-								onclick="return hs.expand(this, config5 )">
-							<img src="img/projects/ascension7.jpg"  alt=""/>
-						</a>
-					</div>
-				</div>
-				<p>Game developed in a Game Rush held at INSA, where we had 24 hours to create a game on a specific topic (here gravity), in teams of 4 developers + 1/2 designers. Not a lot of sleep, but a lot of fun.</p>
-				<p>Ascension is a vertical scrolling game that takes place in a cartoon world ranging from depths of hell to the cloudy heaven, where characters from all backgrounds fight for a place in a better life. They have, in order to be admitted into the paradise, a power that allows them to repel their closer enemies in an attempt to make them fall into the flames of hell. It is skillfully jumping from platform to platform while pushing its competitors that players come to be accepted in heaven.</p>
-				<p>The game can be played up to 4 players; however, everything happens on the same keyboard. You can find a video of the gameplay <a target="_blank" href="http://www.youtube.com/watch?v=HVweItpfMuY">here</a> (the four players are played by the same person), or <a target="_blank" href="http://www.youtube.com/watch?v=f8WVxSoRD2Q">here</a> a video with four real players ('bit messy..).</p>
-				<p>Developped with Michael Fagno, Anis Benyoub &amp; Florent Weillaert. Desing by <a target="_blank" href="http://lamachinefactory.com/">Damien Reynaud</a> &amp; Delphine Rousseau. Code <a target="_blank" href="https://github.com/jonasbru/ProjetX">here</a>.</p>
-			</div>
-			<div id="NanoBlood" class="span12 backRound">
-				<h2 class="h2Projects">NanoBlood</h2><span class="badge">Java</span><span class="badge">Slick</span>
-				<div class="highslide-gallery">
-					<a id="thumb7" href="img/projects/nanoblood1.jpg" class="highslide" 
-							onclick="return hs.expand(this, config7 )">
-						<img src="img/projects/nanoblood.thumb.jpg" class="img-polaroid img-project" alt=""/>
-					</a>
-					
-					<div class="hidden-container">
-						<a href="img/projects/nanoblood2.jpg" class="highslide" 
-								onclick="return hs.expand(this, config7 )">
-							<img src="img/projects/nanoblood2.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/nanoblood3.jpg" class="highslide" 
-								onclick="return hs.expand(this, config7 )">
-							<img src="img/projects/nanoblood3.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/nanoblood4.jpg" class="highslide" 
-								onclick="return hs.expand(this, config7 )">
-							<img src="img/projects/nanoblood4.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/nanoblood5.jpg" class="highslide" 
-								onclick="return hs.expand(this, config7 )">
-							<img src="img/projects/nanoblood5.jpg"  alt=""/>
-						</a>
-					</div>
-				</div>
-				<p>Game developed during a Global GameJam, I was participating in Lyon, at the <a target="_blank" href="http://www.bellecour.fr/">Bellecour Ecoles</a> locals. Same concept as Ascension, we had 48 hours to build a team and create a game on a specific topic here a heart beats. Our team was composed of 3 developers + 3 graphic designers + 1 game designer.</p>
-				<p>NanoBlood is a 2D side scroller where you must aim for the highest score. You control a nano vessel that moves inside human blood vessels. At the beginning of the GameJam, the purpose of the game was to cure the patient you're inside, and for that you needed to destroy "bad" cells (like cancer cells, viruses, etc), while collecting bonuses, like a shield, life, etc. Buuut, I don't know really why, we ended with a game where you could destroy everything, "bad" and "good" cells, shooting lasers everywhere (yeah lasers, inside the blood vessels yep). But it was fun !!</p>
-				<p>Oh, at the end (yes because you will die at some point), you discover that you were inside Batman, and you just killed him. Yep. (did I said that it seemed fun back then?)</p>
-				<p>Developped with Théo Dubourg, Johan Nagy, William Burke, Bertrand Degalbert, Anthony Nemoff, P.G Chouzy. You can find the project page <a target="_blank" href="http://globalgamejam.org/2013/nanoblood">here</a>. Code <a target="_blank" href="https://github.com/jonasbru/nanoblood">here</a>.</p>
-			</div>
+	<div id="Bubbles" class="span12 backRound">
+		<h2 class="h2Projects">Bubbles</h2><span class="badge">C++</span><span class="badge">Qt</span><span class="badge">Physics engine</span><span class="badge">3D</span><span class="badge">Network</span>
+		<div class="highslide-gallery">
+			<a id="thumb2" href="img/projects/bubbles1.jpg" class="highslide" 
+					onclick="return hs.expand(this, config2 )">
+				<img src="img/projects/bubbles.thumb.jpg" class="img-polaroid img-project" alt=""/>
+			</a>
 			
-			<div id="DeepInTheLight" class="span12 backRound">
-				<h2 class="h2Projects">DeepInTheLight</h2><span class="badge">Java</span><span class="badge">Slick</span>
-				<div class="highslide-gallery">
-					<a id="thumb8" href="img/projects/DeepInTheLight1.jpg" class="highslide" 
-							onclick="return hs.expand(this, config8 )">
-						<img src="img/projects/DeepInTheLight.thumb.jpg" class="img-polaroid img-project" alt=""/>
-					</a>
-					
-					<div class="hidden-container">
-						<a href="img/projects/DeepInTheLight2.jpg" class="highslide" 
-								onclick="return hs.expand(this, config8 )">
-							<img src="img/projects/DeepInTheLight2.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/DeepInTheLight3.jpg" class="highslide" 
-								onclick="return hs.expand(this, config8 )">
-							<img src="img/projects/DeepInTheLight3.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/DeepInTheLight4.jpg" class="highslide" 
-								onclick="return hs.expand(this, config8 )">
-							<img src="img/projects/DeepInTheLight4.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/DeepInTheLight5.jpg" class="highslide" 
-								onclick="return hs.expand(this, config8 )">
-							<img src="img/projects/DeepInTheLight5.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/DeepInTheLight6.jpg" class="highslide" 
-								onclick="return hs.expand(this, config8 )">
-							<img src="img/projects/DeepInTheLight6.jpg"  alt=""/>
-						</a>
-						<a href="img/projects/DeepInTheLight7.jpg" class="highslide" 
-								onclick="return hs.expand(this, config8 )">
-							<img src="img/projects/DeepInTheLight7.jpg"  alt=""/>
-						</a>
-					</div>
-				</div>
-				<p>Game developed in a Game Rush held at INSA (again), where we had 24 hours to create a game on a specific topic (here Cartoon). This time, our team was composed of 4 developers, a graphic designer and a sound designer.</p>
-				<p>In Deep in the Light you control a deep-sea fish (an Anglerfish to be precise), and all the light in the environment that surrounds you is the light that you produce, so you have a limited field of view. Moreover, the reach of you light decreases over time, and you need to eat other little glowing fishes to expand your light radius again. That means that, at some points, you can have a really tiny field of vision, and not being able to see the obstacles or enemies that surround you. We wanted to produce a dark and stressful ambiance for this game, and the music helped in there too, because the less you can see, the stressful the music becomes.</p>
-				<p>Developed with Michael Fagno, Raphaël Catolino, Kévin Le Gouguec, Stanislas Bernatt, Anthony Clerc. Code <a target="_blank" href="https://github.com/DeepInTheLight/DeepInTheLight">here</a>.</p>
+			<div class="hidden-container">
+				<a href="img/projects/bubbles2.jpg" class="highslide" 
+						onclick="return hs.expand(this, config2 )">
+					<img src="img/projects/bubbles2.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/bubbles3.jpg" class="highslide" 
+						onclick="return hs.expand(this, config2 )">
+					<img src="img/projects/bubbles3.jpg"  alt=""/>
+				</a>
 			</div>
+		</div>
+		<p>3D multiplayer game developed in a 4th year network project at INSA.</p>
+		<p>The game is a first person shooter, in a world made ​​of cubes and spheres (hence the name: Bubbles). The peculiarity is that players move inside a cube, on which you can walk on all sides. Since it was designed for multiplayer, the game is composed of a client and a server. The client was developed by Michael and Mathieu and I worked on the server side.</p>
+		<p>The client only displays the current positions of all objects, and it's the server that calculates the positions, movements, collisions, etc..and sends the coordinates of the changed objects to the clients. I developed my own physics engine, because the calculations and the objects were fairly simple.</p>
+		<p>Developped with Mathieu Sabourin &amp; Michael Fagno. Code of the server <a target="_blank" href="https://github.com/bubbles3D/Bubbles-Server">here</a>, and <a target="_blank" href="https://github.com/bubbles3D/Bubble-Client">here</a> for the client.</p>
+	</div>
+	<div id="Kimiya" class="span12 backRound">
+		<h2 class="h2Projects">Kimiya 2D Engine</h2><span class="badge">C++</span><span class="badge">OpenGL</span><span class="badge">Qt</span>
+		<p>2D graphic engine in C + +, oriented for games with a 3D isometric view. First phase of a larger game, which for the moment is on stand-by.</p>
+		<p>The creation of this graphics engine is a response to the lack of 2D graphics engines in C++ that was adapted to our needs (we're talking about 2009, I suppose that now there is some good stuff..).</p>
+		<p>The engine managed graphic objects in a tree structure, and had features as: loading and display of different formats of images, display of simple geometric shapes, programmed object transitions, display text with different effects, display of several cameras pointing at the same scene, the management of animated images, zoom / dezoom of the scene , customizable particle engine, and other features.</p>
+		<p>Developped with <a target="_blank" href="http://arnaudboeglin.com/">Arnaud Boeglin</a>.</p>
+	</div>
+<!-- 	<div id="OrderManagement" class="span12 backRound">
+		<h2 class="h2Projects">Order Management</h2>
+		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas facilisis commodo ipsum, nec tempor nibh sagittis vel. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed feugiat, lacus eget suscipit vestibulum, nisi sapien lacinia turpis, id condimentum ipsum massa in nulla. Maecenas ut lorem vel lorem varius semper. Integer est nisi, suscipit et pharetra in, mollis varius tellus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam eget lorem purus, at vulputate ipsum. Vestibulum quis sollicitudin eros. Nulla vel porttitor erat. Nunc porttitor purus malesuada nunc accumsan vehicula.</p>
+	</div> -->
+	<div id="ColonsdeCatane" class="span12 backRound">
+		<h2 class="h2Projects">Colons de Catane</h2><span class="badge">Java</span>
+		<div class="highslide-gallery">
+			<a id="thumb3" href="img/projects/colons1.jpg" class="highslide" 
+					onclick="return hs.expand(this, config3 )">
+				<img src="img/projects/colons.thumb.jpg" class="img-polaroid img-project" alt=""/>
+			</a>
 			
-			<div id="CofityHome" class="span12 backRound">
-				<h2 class="h2Projects">Cofity Home</h2><span class="badge">Domotic</span><span class="badge">C</span><span class="badge">Flex</span><span class="badge">Bison</span><span class="badge">JSON</span>
-				<p>Domotic server highly configurable, collects information from various sensors and triggers actuators automatically according to rules written by the user. Incorporates a web server that allows the user to monitor the sensors, trigger the actuators, and change the rules of the server. Adding additional sensors and actuators is simplified to the maximum, and it is only a matter of minutes to add a new one. We used EnOcean sensors, but any bran can be used.</p>
-				<p>The user can, for example, add a rule that would, if it is past 8 am, and the ambient light exceeds a certain threshold, and all bedroom windows are closed, then turn the heat on and start the cofee machine. He can also trigger these actions from the web interface, and if the user is not at home, the web interface is adapted to the mobile phones screen too.</p>
-				<p>The project was done in a group of six at INSA, and I was the project manager. It was very interesting to manage such a project for a period of two months in a group of six, and make sure you that we had something finished and stable at the end.</p>
-				<p>Developped with Benjamin Augustin, Vincent Bailly, Yann Chevalier, Crina Costea &amp; Mathieu Sabourin. Code <a target="_blank" href="https://github.com/jonasbru/cofiTyHome">here</a>.</p>
+			<div class="hidden-container">
+				<a href="img/projects/colons2.jpg" class="highslide" 
+						onclick="return hs.expand(this, config3 )">
+					<img src="img/projects/colons2.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/colons3.jpg" class="highslide" 
+						onclick="return hs.expand(this, config3 )">
+					<img src="img/projects/colons3.jpg"  alt=""/>
+				</a>
 			</div>
+		</div>
+		<p>Project developed in a course at UTBM.</p>
+		<p>A digital version of the game <a target="_blank" href="http://en.wikipedia.org/wiki/The_Settlers_of_Catan">The Settlers of Catan</a> (Colons de Catane in French), a multiplayer board game. Players assume the roles of settlers, each attempting to build and develop holdings while trading and acquiring resources. Players are rewarded points as their settlements grow; the first to reach a set number of points is the winner.</p>
+		<p>All the basic rules of the game were implemented, and represented an interesting project by the magnitude of the project and the short time (and staff) at our disposal.</p>
+		<p>Developped with Lionel Cabasson</p>
+	</div>
+	<div id="Paristaxiflow" class="span12 backRound">
+		<h2 class="h2Projects">Paris taxi flow</h2><span class="badge">Flash</span><span class="badge">ActionScript 3</span>
+		<div class="highslide-gallery">
+			<a id="thumb4" href="img/projects/taxi1.jpg" class="highslide" 
+					onclick="return hs.expand(this, config4 )">
+				<img src="img/projects/taxi.thumb.jpg" class="img-polaroid img-project" alt=""/>
+			</a>
 			
-			<div class="span12 ">
-			<p class="page-bottom">
-				<small>© Jonàs Brú Monserrat 2013 | Powered by <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a> &amp; <a href="http://www.initializr.com/" target="_blank">Initializr</a></small>
-			</p>
+			<div class="hidden-container">
+				<a href="img/projects/taxi2.jpg" class="highslide" 
+						onclick="return hs.expand(this, config4 )">
+					<img src="img/projects/taxi2.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/taxi3.jpg" class="highslide" 
+						onclick="return hs.expand(this, config4 )">
+					<img src="img/projects/taxi3.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/taxi4.jpg" class="highslide" 
+						onclick="return hs.expand(this, config4 )">
+					<img src="img/projects/taxi4.jpg"  alt=""/>
+				</a>
 			</div>
-        </div>
-      </div>
-    </div>
+		</div>
+		<p>A UTBM professor came one day to me with a particular subject which needed the help of a student. The subject being very interesting, I accepted the offer.</p>
+		<p>The city of Paris wanted to conduct a study on the viability of electric taxis in the French capital, including the placement of recharging stations for the taxis. We had at our disposal a file containing the GPS coordinates of all taxis in Paris at any time of the day for a period of one week (needless to say that the file was huge), as well as the information if the taxi was occupied or empty. The goal was to find the points of the city where the greatest number of empty taxis circulated in order to install charging stations at these locations.</p>
+		<p>The program was developed in Flash (requirement of the professor), and shows the movements of the taxis during the day over a map of Paris. Different views modes, filters, as well as the ability to track a taxi in particular have also been implemented. The project was interesting by the type of data handled, as well as its volume, that should be well managed in order to not slow the application.</p>
+		<p>Code <a target="_blank" href="https://github.com/jonasbru/TaxiManager">here</a>, try it <a target="_blank" href="http://jonasbru.github.com/TaxiManager/">here</a>!</p>
+	</div>
+	<div id="Gameoflife" class="span12 backRound">
+		<h2 class="h2Projects">Game of life</h2><span class="badge">Haskell</span>
+		<div class="highslide-gallery">
+			<a id="thumb6" href="img/projects/GOL1.gif" class="highslide" 
+					onclick="return hs.expand(this, config6 )">
+				<img src="img/projects/GOL.thumb.jpg" class="img-polaroid img-project" alt=""/>
+			</a>
+			
+			<div class="hidden-container">
+				<a href="img/projects/GOL2.jpg" class="highslide" 
+						onclick="return hs.expand(this, config6 )">
+					<img src="img/projects/GOL2.jpg"  alt=""/>
+				</a>
+			</div>
+		</div>
+		<p>Haskell implementation of the <a target="_blank" href="http://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's Game of Life</a>. Final project from a Chalmers functionnal programming course.</p>
+		<p>The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves.</p>
+		<p>The universe of the Game of Life is an infinite two-dimensional orthogonal grid of square cells, each of which is in one of two possible states, alive or dead. Every cell interacts with its eight neighbours, which are the cells that are horizontally, vertically, or diagonally adjacent. At each step in time, the following transitions occur:
+		</p>
+		<ol>
+		    <li>Any live cell with fewer than two live neighbours dies, as if caused by under-population.</li>
+		    <li>Any live cell with two or three live neighbours lives on to the next generation.</li>
+		    <li>Any live cell with more than three live neighbours dies, as if by overcrowding.</li>
+		    <li>Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</li>
+		</ol>
+		<p>An user interface permits to see the evolution of the pattern (zoom/dezoom, change the simulation speed, etc). The script can read and load RLE files, RLE being the most common game of life patterns files. You can fin a lot of interesting patterns (and spend a lot of time playing with them) on the <a target="_blank" href="http://www.conwaylife.com/wiki/Main_Page">LifeWiki</a>.</p>
+		<p>Developped with Michael Fagno. Code <a target="_blank" href="https://github.com/jonasbru/FunctionalProg">here</a>.</p>
+	</div>
+	<div id="Ascension" class="span12 backRound">
+		<h2 class="h2Projects">Ascension</h2><span class="badge">Java</span><span class="badge">Slick</span>
+		<div class="highslide-gallery">
+			<a id="thumb5" href="img/projects/ascension1.jpg" class="highslide" 
+					onclick="return hs.expand(this, config5 )">
+				<img src="img/projects/ascension.thumb.jpg" class="img-polaroid img-project" alt=""/>
+			</a>
+			
+			<div class="hidden-container">
+				<a href="img/projects/ascension2.jpg" class="highslide" 
+						onclick="return hs.expand(this, config5 )">
+					<img src="img/projects/ascension2.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/ascension3.jpg" class="highslide" 
+						onclick="return hs.expand(this, config5 )">
+					<img src="img/projects/ascension3.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/ascension4.jpg" class="highslide" 
+						onclick="return hs.expand(this, config5 )">
+					<img src="img/projects/ascension4.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/ascension5.jpg" class="highslide" 
+						onclick="return hs.expand(this, config5 )">
+					<img src="img/projects/ascension5.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/ascension6.jpg" class="highslide" 
+						onclick="return hs.expand(this, config5 )">
+					<img src="img/projects/ascension6.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/ascension7.jpg" class="highslide" 
+						onclick="return hs.expand(this, config5 )">
+					<img src="img/projects/ascension7.jpg"  alt=""/>
+				</a>
+			</div>
+		</div>
+		<p>Game developed in a Game Rush held at INSA, where we had 24 hours to create a game on a specific topic (here gravity), in teams of 4 developers + 1/2 designers. Not a lot of sleep, but a lot of fun.</p>
+		<p>Ascension is a vertical scrolling game that takes place in a cartoon world ranging from depths of hell to the cloudy heaven, where characters from all backgrounds fight for a place in a better life. They have, in order to be admitted into the paradise, a power that allows them to repel their closer enemies in an attempt to make them fall into the flames of hell. It is skillfully jumping from platform to platform while pushing its competitors that players come to be accepted in heaven.</p>
+		<p>The game can be played up to 4 players; however, everything happens on the same keyboard. You can find a video of the gameplay <a target="_blank" href="http://www.youtube.com/watch?v=HVweItpfMuY">here</a> (the four players are played by the same person), or <a target="_blank" href="http://www.youtube.com/watch?v=f8WVxSoRD2Q">here</a> a video with four real players ('bit messy..).</p>
+		<p>Developped with Michael Fagno, Anis Benyoub &amp; Florent Weillaert. Desing by <a target="_blank" href="http://lamachinefactory.com/">Damien Reynaud</a> &amp; Delphine Rousseau. Code <a target="_blank" href="https://github.com/jonasbru/ProjetX">here</a>.</p>
+	</div>
+	<div id="NanoBlood" class="span12 backRound">
+		<h2 class="h2Projects">NanoBlood</h2><span class="badge">Java</span><span class="badge">Slick</span>
+		<div class="highslide-gallery">
+			<a id="thumb7" href="img/projects/nanoblood1.jpg" class="highslide" 
+					onclick="return hs.expand(this, config7 )">
+				<img src="img/projects/nanoblood.thumb.jpg" class="img-polaroid img-project" alt=""/>
+			</a>
+			
+			<div class="hidden-container">
+				<a href="img/projects/nanoblood2.jpg" class="highslide" 
+						onclick="return hs.expand(this, config7 )">
+					<img src="img/projects/nanoblood2.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/nanoblood3.jpg" class="highslide" 
+						onclick="return hs.expand(this, config7 )">
+					<img src="img/projects/nanoblood3.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/nanoblood4.jpg" class="highslide" 
+						onclick="return hs.expand(this, config7 )">
+					<img src="img/projects/nanoblood4.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/nanoblood5.jpg" class="highslide" 
+						onclick="return hs.expand(this, config7 )">
+					<img src="img/projects/nanoblood5.jpg"  alt=""/>
+				</a>
+			</div>
+		</div>
+		<p>Game developed during a Global GameJam, I was participating in Lyon, at the <a target="_blank" href="http://www.bellecour.fr/">Bellecour Ecoles</a> locals. Same concept as Ascension, we had 48 hours to build a team and create a game on a specific topic here a heart beats. Our team was composed of 3 developers + 3 graphic designers + 1 game designer.</p>
+		<p>NanoBlood is a 2D side scroller where you must aim for the highest score. You control a nano vessel that moves inside human blood vessels. At the beginning of the GameJam, the purpose of the game was to cure the patient you're inside, and for that you needed to destroy "bad" cells (like cancer cells, viruses, etc), while collecting bonuses, like a shield, life, etc. Buuut, I don't know really why, we ended with a game where you could destroy everything, "bad" and "good" cells, shooting lasers everywhere (yeah lasers, inside the blood vessels yep). But it was fun !!</p>
+		<p>Oh, at the end (yes because you will die at some point), you discover that you were inside Batman, and you just killed him. Yep. (did I said that it seemed fun back then?)</p>
+		<p>Developped with Théo Dubourg, Johan Nagy, William Burke, Bertrand Degalbert, Anthony Nemoff, P.G Chouzy. You can find the project page <a target="_blank" href="http://globalgamejam.org/2013/nanoblood">here</a>. Code <a target="_blank" href="https://github.com/jonasbru/nanoblood">here</a>.</p>
+	</div>
 	
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-
-        <script src="js/vendor/bootstrap.min.js"></script>
-
-        <script src="js/main.js"></script>
-
-        <script>
-            var _gaq=[['_setAccount','UA-35637631-1'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
-    </div>
-    </body>
-</html>
+	<div id="DeepInTheLight" class="span12 backRound">
+		<h2 class="h2Projects">DeepInTheLight</h2><span class="badge">Java</span><span class="badge">Slick</span>
+		<div class="highslide-gallery">
+			<a id="thumb8" href="img/projects/DeepInTheLight1.jpg" class="highslide" 
+					onclick="return hs.expand(this, config8 )">
+				<img src="img/projects/DeepInTheLight.thumb.jpg" class="img-polaroid img-project" alt=""/>
+			</a>
+			
+			<div class="hidden-container">
+				<a href="img/projects/DeepInTheLight2.jpg" class="highslide" 
+						onclick="return hs.expand(this, config8 )">
+					<img src="img/projects/DeepInTheLight2.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/DeepInTheLight3.jpg" class="highslide" 
+						onclick="return hs.expand(this, config8 )">
+					<img src="img/projects/DeepInTheLight3.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/DeepInTheLight4.jpg" class="highslide" 
+						onclick="return hs.expand(this, config8 )">
+					<img src="img/projects/DeepInTheLight4.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/DeepInTheLight5.jpg" class="highslide" 
+						onclick="return hs.expand(this, config8 )">
+					<img src="img/projects/DeepInTheLight5.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/DeepInTheLight6.jpg" class="highslide" 
+						onclick="return hs.expand(this, config8 )">
+					<img src="img/projects/DeepInTheLight6.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/DeepInTheLight7.jpg" class="highslide" 
+						onclick="return hs.expand(this, config8 )">
+					<img src="img/projects/DeepInTheLight7.jpg"  alt=""/>
+				</a>
+			</div>
+		</div>
+		<p>Game developed in a Game Rush held at INSA (again), where we had 24 hours to create a game on a specific topic (here Cartoon). This time, our team was composed of 4 developers, a graphic designer and a sound designer.</p>
+		<p>In Deep in the Light you control a deep-sea fish (an Anglerfish to be precise), and all the light in the environment that surrounds you is the light that you produce, so you have a limited field of view. Moreover, the reach of you light decreases over time, and you need to eat other little glowing fishes to expand your light radius again. That means that, at some points, you can have a really tiny field of vision, and not being able to see the obstacles or enemies that surround you. We wanted to produce a dark and stressful ambiance for this game, and the music helped in there too, because the less you can see, the stressful the music becomes.</p>
+		<p>Developed with Michael Fagno, Raphaël Catolino, Kévin Le Gouguec, Stanislas Bernatt, Anthony Clerc. Code <a target="_blank" href="https://github.com/DeepInTheLight/DeepInTheLight">here</a>.</p>
+	</div>
+	
+	<div id="CofityHome" class="span12 backRound">
+		<h2 class="h2Projects">Cofity Home</h2><span class="badge">Domotic</span><span class="badge">C</span><span class="badge">Flex</span><span class="badge">Bison</span><span class="badge">JSON</span>
+		<p>Domotic server highly configurable, collects information from various sensors and triggers actuators automatically according to rules written by the user. Incorporates a web server that allows the user to monitor the sensors, trigger the actuators, and change the rules of the server. Adding additional sensors and actuators is simplified to the maximum, and it is only a matter of minutes to add a new one. We used EnOcean sensors, but any bran can be used.</p>
+		<p>The user can, for example, add a rule that would, if it is past 8 am, and the ambient light exceeds a certain threshold, and all bedroom windows are closed, then turn the heat on and start the cofee machine. He can also trigger these actions from the web interface, and if the user is not at home, the web interface is adapted to the mobile phones screen too.</p>
+		<p>The project was done in a group of six at INSA, and I was the project manager. It was very interesting to manage such a project for a period of two months in a group of six, and make sure you that we had something finished and stable at the end.</p>
+		<p>Developped with Benjamin Augustin, Vincent Bailly, Yann Chevalier, Crina Costea &amp; Mathieu Sabourin. Code <a target="_blank" href="https://github.com/jonasbru/cofiTyHome">here</a>.</p>
+	</div>
