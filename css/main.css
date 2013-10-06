@@ -27,6 +27,14 @@ body {
 	background-color: Lavender;
 }
 
+a i {
+	color: black;
+}
+
+li.active a i {
+	color: white;
+}
+
 .center {
 	text-align: center;
 }
@@ -67,6 +75,14 @@ body {
 	height:40px;
 	display: inline-block;
 	padding:3px;
+}
+
+.logo a {
+	text-decoration: none;
+}
+
+.logo:hover {
+	background-color: #EEEEEE;
 }
 
 .content {
