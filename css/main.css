@@ -113,7 +113,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .page-bottom {
 	border-top:1px solid #3399CC;
-	type:block;
+	display:block;
 	margin-top:20px;
 	padding-top:3px;
 }
@@ -135,7 +135,7 @@ h1,h2,h3,h4,h5,h6 {
   background-color: #fff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0,0,0,.2);
-  .box-shadow(0 1px 3px rgba(0,0,0,.1));
+  box-shadow(0 1px 3px rgba(0,0,0,.1));
 }
 
 .table-cv td {

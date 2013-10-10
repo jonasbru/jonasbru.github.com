@@ -6,8 +6,42 @@ projectsMenu: true
 ---
 <div class="span10 content">
 	<h2>Projects</h2>
-	<p>Here are some interesting projects I've participated in these last few years. I tried, wherever possible, to put a link to the code as well as some screenshots (you can clic on the images). If you want to know more about a project, please feel free to send me an email !</p>
+	<p>Here are some interesting projects I've participated in these last few years. I tried, wherever possible, to put a link to the code as well as some screenshots (you can click on the images). If you want to know more about a project, please feel free to send me an email!</p>
 	<br/>
+	<div id="LibraryManager" class="span12 backRound">
+		<h2 class="h2Projects">Tiny Library Manager</h2><span class="badge">Python</span><span class="badge">Flask</span><span class="badge">Bootstrap</span><span class="badge">jQuery</span><span class="badge">Google Books API</span>
+		<div class="highslide-gallery">
+			<a id="thumb9" href="img/projects/library1.jpg" class="highslide" 
+					onclick="return hs.expand(this, config9 )">
+				<img src="img/projects/library.thumb.jpg" class="img-polaroid img-project" alt=""/>
+			</a>
+			
+			<div class="hidden-container">
+				<a href="img/projects/library2.jpg" class="highslide" 
+						onclick="return hs.expand(this, config9 )">
+					<img src="img/projects/library2.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/library3.gif" class="highslide" 
+						onclick="return hs.expand(this, config9 )">
+					<img src="img/projects/library3.gif"  alt=""/>
+				</a>
+				<a href="img/projects/library4.jpg" class="highslide" 
+						onclick="return hs.expand(this, config9 )">
+					<img src="img/projects/library4.jpg"  alt=""/>
+				</a>
+				<a href="img/projects/library5.jpg" class="highslide" 
+						onclick="return hs.expand(this, config9 )">
+					<img src="img/projects/library5.jpg"  alt=""/>
+				</a>
+			</div>
+		</div>
+		<p>At Atlassian, ever quarter there is an event called Ship-It day, it's a day where employees can spend 24 hours working on a project/feature/modification related to the company that they always wanted to do, but never had the time to. You can read more about it <a href="https://www.atlassian.com/company/about/shipit" target="_blank">here</a>.</p>
+		<p>I participated in two of those during my internship at Atlassian, and in both of them I worked on a (tiny) library management system. They have a shelf with some books that people can freely borrow, but there is no tracking of the books, so when a book is missing, nobody knows who has it. I looked for some existent library management system on the net, but didn't find one simple enough for our needs. So, that's how I started working on this!</p>
+		<p>The app has a basic login, you can see the book collection, see if a book is available or not (if not, you can see who has it), borrow &amp; return a book, add a book &amp; change its details, add a book using the Google Books API.</p>
+		<p>Because I wanted the system to borrow/return a book be the simplest possible, so people would actually do it, I came up with a QR Codes + Smartphone solution. There is a page in the app that allows you to generate a PFD with QR Codes for a selected list of books, then you can print that page and paste the Codes on the back of the books. This way, someone that wants to borrow/return a book only needs to scan the QR Code, then a browser window will open asking him to confirm his action, and then he's done! No computers involved, 20 seconds.</p>
+		<p>You can test and play with it at this address : <a href="http://amslibrary.herokuapp.com" target="_blank">http://amslibrary.herokuapp.com</a>. Please mess as much as you want with it, the database is reseted once a day! Don't hesitate to login, it's only a username.</p>
+		<p>The sources are available <a href="https://github.com/jonasbru/TinyLibraryManager" target="_blank">here</a>.</p>
+	</div>
 	<div id="ZenInstants" class="span12 backRound">
 		<h2 class="h2Projects">Zen Instants</h2><span class="badge">Android</span><span class="badge">Java</span><span class="badge">PHP</span>
 		<div class="highslide-gallery">
