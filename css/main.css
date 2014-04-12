@@ -208,6 +208,47 @@ h4 {
 	max-height: 150px;
 }
 
+/* Image stacks */
+.stack {
+	margin: 20px;
+	/*width: 400px;*/
+	padding: 0;
+	position: relative;
+	max-width: 100%;
+}
+
+.stack img {
+	max-width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	outline: 1px solid transparent;
+}
+
+.stack img:last-child {
+	position: relative;
+}
+
+/* Random rotation */
+.stack-randomrot.active img:nth-child(3) {
+	-webkit-transform: translate(15px,15px);
+	transform: translate(15px,15px);
+}
+
+.stack-randomrot.active img:first-child {
+	-webkit-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.stack-randomrot.active img:nth-child(2) {
+	-webkit-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+
+
+
 /* Desktop
 ------------------------- */
 @media (min-width: 980px) {
