@@ -3,3 +3,4 @@ lsi: false
 pygments: true
 layout: default
 markdown: kramdown
+production_url : http://jonasbru.com
