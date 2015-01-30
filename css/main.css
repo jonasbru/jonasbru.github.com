@@ -1,6 +1,6 @@
 body { 
 	/*background: url(../img/pattern.png) repeat Ivory ;*/
-	background: Ivory ;
+	background: #FFFFF4 ;
 }
 
 .whole_page {
@@ -33,6 +33,24 @@ a i {
 
 li.active a i {
 	color: white;
+}
+
+.logo i {
+	color: black;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -o-transition: color 1s;
+    -ms-transition: color 1s;
+    transition: color 1s;
+}
+
+.logo:hover i {
+	color: #0088CC;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -o-transition: color .3s;
+    -ms-transition: color .3s;
+    transition: color .3s;
 }
 
 .center {
@@ -247,7 +265,34 @@ h4 {
 	transform: rotate(10deg);
 }
 
+/* Rainbow yay */
+[class*="rwletter-"] {
+	color: black;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -o-transition: color 1s;
+    -ms-transition: color 1s;
+    transition: color 1s;
+    display: inline;
+}
 
+[class*="rwletter-"]:hover  {
+    -webkit-transition: color .1s;
+    -moz-transition: color .1s;
+    -o-transition: color .1s;
+    -ms-transition: color .1s;
+    transition: color .1s;
+}
+
+.rwletter-1:hover {color: #ff0000;}
+.rwletter-2:hover {color: #ff4000;}
+.rwletter-3:hover {color: #ff7f00;}
+.rwletter-4:hover {color: #ffff00;}
+.rwletter-5:hover {color: #80ff00;}
+.rwletter-6:hover {color: #00ff00;}
+.rwletter-7:hover {color: #00ffff;}
+.rwletter-8:hover {color: #0080ff;}
+.rwletter-9 {color: #0000ff;}
 
 /* Desktop
 ------------------------- */

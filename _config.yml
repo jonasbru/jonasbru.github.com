@@ -1,6 +1,7 @@
 safe: true
 lsi: false
-pygments: true
+highlighter: pygments
 layout: default
 markdown: kramdown
 production_url : http://jonasbru.com
+baseurl: /
