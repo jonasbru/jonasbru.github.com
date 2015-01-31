@@ -1,5 +1,7 @@
 $( document ).ready(function() {
 	$(".project").hover(function () {
-		$(this).find("figure").toggleClass("active");
+		$(this).find("figure").addClass("active");
+	}, function () {
+		$(this).find("figure").removeClass("active");
 	});
 });
