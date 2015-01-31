@@ -1,7 +1,7 @@
 /**
 *	Site-specific configuration settings for Highslide JS
 */
-hs.graphicsDir = 'highslide/graphics/';
+hs.graphicsDir = '/highslide/graphics/';
 hs.outlineType = 'custom';
 hs.dimmingOpacity = 0.65;
 hs.fadeInOut = true;
