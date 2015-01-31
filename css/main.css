@@ -267,7 +267,7 @@ h4 {
 
 /* Rainbow yay */
 [class*="rwletter-"] {
-	color: black;
+	color: #333;
     -webkit-transition: color 1s;
     -moz-transition: color 1s;
     -o-transition: color 1s;
