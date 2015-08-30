@@ -265,6 +265,11 @@ h4 {
 	transform: rotate(10deg);
 }
 
+.news-content {
+	max-height: 250px;
+	overflow-y: scroll; 
+}
+
 /* Rainbow yay */
 [class*="rwletter-"] {
 	color: #333;

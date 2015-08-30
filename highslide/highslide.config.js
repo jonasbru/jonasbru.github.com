@@ -112,3 +112,12 @@ var config10 = {
 	numberPosition: 'caption',
 	transitions: ['expand', 'crossfade']
 };
+
+
+// gallery config object
+var config11 = {
+	slideshowGroup: 'group11',
+	thumbnailId: 'thumb11',
+	numberPosition: 'caption',
+	transitions: ['expand', 'crossfade']
+};
